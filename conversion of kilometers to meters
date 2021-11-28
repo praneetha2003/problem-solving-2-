@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() 
+{
+    int k;
+    printf("enter the value of kilometres", k);
+    scanf("%d", &k);
+    float m;
+    m=k*1000;
+    printf("the value of metresin kilometres is %f", m);
+    return 0;
+}
